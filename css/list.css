@@ -1,0 +1,12 @@
+#list-phones {
+
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	width: 95vw;
+	height: 40vw;
+	background-color: #2A2D34AA;
+	border-radius: 5px;
+	align-items: center;
+	
+}
