@@ -1,0 +1,51 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image:  url('../img/bg.jpg');
+	background-size: cover;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	width: 100vw;
+	height: 3.5vw;
+	background-color: salmon;
+	border-bottom: 1px solid White;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#title {
+	font-family: monospace;
+	font-size: 45px;
+	font-weight: bold;
+	color: salmon;
+	padding: 30px;
+}
+ nav {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+.nav-btn {
+	margin: 10px;
+	padding: 5px;
+	border-radius: 25px;
+	background-color: salmon;
+	color: white;
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.nav-btn:hover {
+	cursor: pointer;
+
+}
