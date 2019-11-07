@@ -4,6 +4,10 @@
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="stylesheet" type="text/css" href="./css/search.css">
 	<link rel="stylesheet" type="text/css" href="./css/list.css">
+
+	<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+	<script src='./db/phones.js'></script>
+	<script src='./scripts/view-phones.js'></script>
 	<title>Que - Find Your Next Smartphone</title>
 </head>
 <body>
@@ -57,7 +61,7 @@
 				</div>
 				<input type="submit" id='submit'>	
 			</form>
-			
+			<!--search view-->
 		</div>	
 
 		<div id="list-phones">
@@ -71,7 +75,9 @@
 	</div>
 
 
-
+<script type="text/javascript">
+	listPhones();
+</script>
 
 </body>
 </html>
