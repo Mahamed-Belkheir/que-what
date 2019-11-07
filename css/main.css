@@ -15,8 +15,8 @@ body{
 header {
 	width: 100vw;
 	height: 3.5vw;
-	background-color: salmon;
-	border-bottom: 1px solid White;
+	background-color: #2B2D42;
+	border-bottom: 1px solid #2A2D34;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -38,8 +38,8 @@ header {
 	margin: 10px;
 	padding: 5px;
 	border-radius: 25px;
-	background-color: salmon;
-	color: white;
+
+	color: salmon;
 	font-family: monospace;
 	font-size: 15px;
 	font-weight: bold;

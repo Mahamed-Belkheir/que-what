@@ -1,13 +1,12 @@
 #search {
 
 	margin: 40px;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	width: 95vw;
 	height: 40vw;
-	background-color: rgba(255,255,255,0.8);
-	border-top: 1px solid salmon;
-	border-bottom: 1px solid salmon;
+	background-color: #2A2D34AA;
+	border-radius: 5px;
 	align-items: center;
 	
 }
@@ -18,10 +17,13 @@
 	align-items: center;
 	height: 100%;
 	width: 40vw;
-	background: white;
+	background: #FFFFFFEE;
 	font-family: monospace;
 	font-size: 20px;
 	color: salmon;
+	border-radius: 100%;
+	padding-top: 80px;
+	border: 2px solid salmon;
 }
 
 #search>form>input {
@@ -30,5 +32,12 @@
 	border-style: solid;
 	text-align: center;
 	height: 3%;
-	width: 15%
+	width: 25%
+}
+
+#search>form>input#submit {
+	background: white;
+	margin-top: 20px;
+	width: 10%;
+
 }
