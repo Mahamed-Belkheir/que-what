@@ -1,7 +1,7 @@
 #search {
 
 	margin: 40px;
-	display: none;
+	display: flex;
 	flex-direction: column;
 	width: 95vw;
 	height: 40vw;
@@ -17,17 +17,18 @@
 	align-items: center;
 	height: 100%;
 	width: 40vw;
-	background: #FFFFFFEE;
+
 	font-family: monospace;
 	font-size: 20px;
-	color: salmon;
-	border-radius: 100%;
-	padding-top: 120px;
-	border: 2px solid salmon;
+	color: yellow;
+	border-radius: 25px;
+	padding-top: 50px;
+
+	margin: 20px;
 }
 
-#search>form>input {
-	border-color: salmon;
+#search>form>input , #submit {
+	border-color: white;
 	border-radius: 25px;
 	border-style: solid;
 	text-align: center;
@@ -35,9 +36,13 @@
 	width: 25%
 }
 
-#search>form>input#submit {
+#submit {
 	background: white;
 	margin-top: 20px;
 	width: 10%;
 
+}
+
+.yellow {
+	color: yellow
 }
