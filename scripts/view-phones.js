@@ -8,7 +8,9 @@ function listPhones(){
 					   + Number(element.phoneProperty('battery')) * Number($('input[name=battery]:checked').val())
 					   + Number(element.phoneProperty('screen')) * Number($('input[name=screen]:checked').val())
 					   + Number(element.phoneProperty('perf')) * Number($('input[name=performance]:checked').val())
-		return element.phoneProperty('price')<=$('[type=number]').val()
+		if($('[type=number]').val()!=='')
+			return element.phoneProperty('price')<=$('[type=number]').val()
+		return element
 	}).sort(function(a,b){
 		return b.rating - a.rating;
 	});
