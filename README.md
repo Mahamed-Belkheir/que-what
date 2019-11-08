@@ -1,18 +1,18 @@
 # Que
-### Phone recommendation platform
+## Phone recommendation platform
 
-####What
+###What
 Que is a phone recommendation platform, that provides users with recommendations based on their input
 along with the ability to find more information through it
 
-####Why
+###Why
 People often buy products that neither satisfies their needs, nor be of good value, due to the influence of marketing, hearsay opinions that are taken as facts, brand loyalty, and misleading or misinfo around specifications (e.g: RAM or megapixel count)
 
-####How
+###How
 Que addresses the issue through asking the user for their needs, not their wants, we gauge the features they care about the most and then provide recommendations we believe to be the most suited, we along include third party reviews to help the user make an educated choice
 
 
-###Repo Map
+##Repo Map
 
 The source is split into multiple folders and files:
 
