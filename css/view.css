@@ -24,6 +24,7 @@
 
 .phone-view iframe {
 	margin-left: 300px;
+	border: none;
 }
 
 .phone-desc {

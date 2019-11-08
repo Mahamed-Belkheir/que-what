@@ -22,6 +22,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
 }
 
 #title {
@@ -29,11 +30,12 @@ header {
 	font-size: 45px;
 	font-weight: bold;
 	color: salmon;
-	padding: 30px;
+	padding: 50px;
 }
  nav {
  	display: flex;
  	justify-content: space-between;
+ 	padding-right: 50px;
  }
 
 .nav-btn {

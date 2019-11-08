@@ -42,10 +42,12 @@
 }
 
 #submit {
-	background: white;
+	background: #2A2D34AA;
 	margin-top: 20px;
-	width: 10%;
-
+	width: 15%;
+	height: 5%;
+	border: none;
+	color: white;
 }
 
 .yellow {
