@@ -1,0 +1,13 @@
+.p-info {
+	display: none;
+}
+
+.phone-view {
+	display: flex;
+
+}
+
+.phone-desc {
+	display: flex;
+	flex-direction: column;
+}

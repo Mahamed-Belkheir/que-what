@@ -1,22 +1,17 @@
 function listPhones(){
+
 	$('#list-phones').html('')
 	
 	 searchArray = db.filter(function(element, i){
 		element.id = i;
-		element.rating = 0;
-		return element.phoneProperty('price')<=$('[type=number]').val()
-	});
-
-	searchArray.forEach(function(element){
 		element.rating = Number(element.phoneProperty('camera')) * Number($('input[name=camera]:checked').val())
 					   + Number(element.phoneProperty('battery')) * Number($('input[name=battery]:checked').val())
 					   + Number(element.phoneProperty('screen')) * Number($('input[name=screen]:checked').val())
 					   + Number(element.phoneProperty('perf')) * Number($('input[name=performance]:checked').val())
-	})
-
-	searchArray.sort(function(a,b){
+		return element.phoneProperty('price')<=$('[type=number]').val()
+	}).sort(function(a,b){
 		return b.rating - a.rating;
-	})
+	});
 
 	searchArray.forEach(function(element, i){
 
@@ -27,6 +22,13 @@ function listPhones(){
 					Battery: ${element.phoneProperty('battery')} Performance: ${element.phoneProperty('perf')}</span>
 					<div>$${element.phoneProperty('price')}</div></div>`)
 
+		pItem.on('click', function(){
+			selectedPhoneId = element.id;
+			$('#list-p').slideUp(function(){
+				displayPhone();
+				$('#p-info').slideDown();
+			})
+		})
 
 		$('#list-phones').append(pItem);
 	});

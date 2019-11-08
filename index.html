@@ -8,6 +8,7 @@
 	<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 	<script src='./db/phones.js'></script>
 	<script src='./scripts/view-phones.js'></script>
+	<script src='./scripts/view-item.js'></script>
 	<title>Que - Find Your Next Smartphone</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
 	<!-- Main body of page, containing all three main views, the search div, the search result div and the phone info div -->
 	<div id='main'>
 
-		<div id='search'>
+		<div id='search' class='main-views'>
 			<form>
 				
 				<h3>Budget</h3>
@@ -65,14 +66,16 @@
 			<!--search view-->
 		</div>	
 
-		<div id="list-p">
+		<div id="list-p" class='main-views'>
 			<div id="list-phones">
 			
 			</div>
 		</div>
 
-		<div id='phone-info'>
-			
+		<div id='p-info' class='main-views'>
+			<div id='phone-info'>
+
+			</div>
 		</div>
 
 	</div>
