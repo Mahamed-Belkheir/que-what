@@ -40,3 +40,11 @@
 #list-p {
 	display: none;
 }
+
+.ranking {
+	color: salmon;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin-left: 200px;
+	margin-right: 30px;
+}

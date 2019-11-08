@@ -1,5 +1,6 @@
 .p-info {
 	display: none;
+	background-color: #2B2D42CC;
 }
 
 .phone-view {
@@ -13,9 +14,35 @@
 	align-items: center;
 	padding: 40px;
 
+
+}
+
+.phone-view img {
+	width: 20vw;
+
+}
+
+.phone-view iframe {
+	margin-left: 300px;
 }
 
 .phone-desc {
 	display: flex;
 	flex-direction: column;
+	font-family: sans-serif;
+	color: yellow;
 }
+
+.phone-desc span{
+	margin: 0;
+}
+
+.phone-desc h3 {
+	color: salmon;
+	border-
+}
+
+.phone-desc p {
+	color: white;
+}
+
