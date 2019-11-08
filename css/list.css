@@ -25,6 +25,11 @@
 
 }
 
+.phone-item:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
 .phone-item img {
 	width: 5vw;
 	border-right: 1px solid #2B2D42;

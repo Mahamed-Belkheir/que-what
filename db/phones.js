@@ -1,3 +1,5 @@
+
+//The Phone class function
 function Phone(model, brand, camera, battery, screen, perf, price, description, img, review){
 	return {
 		model,
@@ -16,12 +18,15 @@ function Phone(model, brand, camera, battery, screen, perf, price, description, 
 	}
 }
 
+//generic getter and setter function
 function phoneProperty(key, val){
-	if(val===undefined)
+	if(val===undefined) //if no value is given for the key, simply return the value
 		return this[key];
-	this[key]=val;
+	this[key]=val; //if not, change the value inside the object to this new value
 }
 
+
+//DB placeholder
 var db = [
 	Phone('Galaxy S10', 'Samsung', 9, 7, 10, 9, 900, "The 2019 Samsung flagship", "./img/phones/galaxy-s10.png", "https://www.youtube.com/embed/dr1Cwix16cQ"),
 	Phone('Galaxy S10+', 'Samsung', 9, 9, 10, 9, 1000, "The plus sized 2019 Samsung flagship", "./img/phones/galaxy-s10+.png", "https://www.youtube.com/embed/dr1Cwix16cQ"),

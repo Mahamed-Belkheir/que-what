@@ -1,3 +1,5 @@
+//function to list all the phones depending on user budget and 
+
 function listPhones(){
 
 	$('#list-phones').html('')

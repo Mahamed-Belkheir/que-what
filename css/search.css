@@ -29,7 +29,7 @@
 #search>form>div {
 	display: flex;
 	align-items: center;
-	width: 10vw;
+	width: 15vw;
 }
 
 #search>form>input , #submit {
@@ -50,9 +50,45 @@
 	color: white;
 }
 
+#submit:hover {
+	color: salmon;
+
+	cursor: pointer;
+}
+
 .yellow {
 	color: white;
 	margin-right: 80px;
 	width: 50px;
 
 }
+
+
+
+/*
+
+tried to make a custom radio button style but it took too much time
+
+.radio-btn {
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+  	background-color: #2A2D34AA;
+  	width: 15px;
+  	height: 15px;
+  	border: 1px solid yellow;
+  	border-radius: 100%;
+}
+
+.radio-btn:hover {
+	background-color: #2A2D34FF;
+	border: 1px solid #2A2D34;
+}
+
+.radio-btn:checked::after {
+	content: '*';
+	color: yellow;
+	position: absolute;
+  	display: block;
+}
+*/
