@@ -14,7 +14,7 @@
 	<header>
 		<span id='title'>Que</span>
 		<nav>
-			<span class='nav-btn'>Home</span>
+			<span class='nav-btn' id='home-btn'>Home</span>
 			<span class='nav-btn'>About</span>
 			<span class='nav-btn'>Recommendation</span>
 		</nav>
@@ -27,37 +27,37 @@
 
 		<div id='search'>
 			<form>
-				<h2>Fill in your preference</h2>
+				
 				<h3>Budget</h3>
 				<input type="number" placeholder="Budget">
 				<h3>Features</h3>
 				<div>
 					<div class='yellow'>Camera</div>
-					<input type="radio" name='camera'>
-					<input type="radio" name='camera'>
-					<input type="radio" name='camera'>
-					<input type="radio" name='camera'>
+					<input type="radio" name='camera' value="0">
+					<input type="radio" name='camera' value="1">
+					<input type="radio" name='camera' value="3">
+					<input type="radio" name='camera' value="5">
 				</div>
 				<div>
 					<div class='yellow'>Battery</div>
-					<input type="radio" name='batter'>
-					<input type="radio" name='batter'>
-					<input type="radio" name='batter'>
-					<input type="radio" name='batter'>
+					<input type="radio" name='battery' value="0">
+					<input type="radio" name='battery' value="1">
+					<input type="radio" name='battery' value="3">
+					<input type="radio" name='battery' value="5">
 				</div>
 				<div>
 					<div class='yellow'>Screen</div>
-					<input type="radio" name='Screen'>
-					<input type="radio" name='Screen'>
-					<input type="radio" name='Screen'>
-					<input type="radio" name='Screen'>
+					<input type="radio" name='screen' value="0">
+					<input type="radio" name='screen' value="1">
+					<input type="radio" name='screen' value="3">
+					<input type="radio" name='screen' value="5">
 				</div>
 				<div>
 					<div class='yellow'>Performance</div>
-					<input type="radio" name='Performance'>
-					<input type="radio" name='Performance'>
-					<input type="radio" name='Performance'>
-					<input type="radio" name='Performance'>
+					<input type="radio" name='performance' value="0">
+					<input type="radio" name='performance' value="1">
+					<input type="radio" name='performance' value="3">
+					<input type="radio" name='performance' value="5">
 				</div>
 					<button type='button' id='submit'> Search </button>
 			</form>

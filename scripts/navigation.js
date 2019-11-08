@@ -7,3 +7,13 @@ $('#submit').on('click', function(){
 	}
 	)
 })
+
+$('#home-btn').on('click', function(){
+	$('#list-p').slideUp(function(){
+		listPhones();
+		$('#search').slideDown(function(){
+			
+		});
+	}
+	)
+})
