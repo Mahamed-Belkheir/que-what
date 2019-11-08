@@ -30,10 +30,11 @@
 		<div id='search' class='main-views'>
 			<form>
 				
-				<h3>Budget</h3>
-				<input type="number" placeholder="Budget">
-				<h3>Features</h3>
+				<h3>What's your budget?</h3>
+				<input type="number" placeholder="Budget" step="50" min="200">
+				<h4>What Features do you care about the most?</h4>
 				<div>
+					<div>
 					<div class='yellow'>Camera</div>
 					<input class='radio-btn' type="radio" name='camera' value="1" checked>
 					<input class='radio-btn' type="radio" name='camera' value="2">
@@ -60,6 +61,7 @@
 					<input class='radio-btn' type="radio" name='performance' value="2">
 					<input class='radio-btn' type="radio" name='performance' value="3">
 					<input class='radio-btn' type="radio" name='performance' value="5">
+				</div>
 				</div>
 					<button type='button' id='submit'> Search </button>
 			</form>
